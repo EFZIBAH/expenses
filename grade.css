@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%)  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.house{
+    width: 350px;
+
+}
+.up{
+    padding: 15px 30px;
+    margin-bottom:15px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(10, 79%, 65%) ;
+    border: none;
+    border-radius: 20px;
+    color: white;
+
+}
+.bal{
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
+    color:hsl(33, 100%, 98%) ; ;
+}
+.money{
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 8px;
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+   
+}
+.down{
+    padding: 20px 30px;
+    background-color:hsl(33, 100%, 98%) ;
+    border: none;
+    border-radius: 20px;
+}
+.spend{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 40px;
+}
+.grade{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.line{
+    border-bottom: 1px solid hsl(28, 10%, 53%)  ;
+    margin-bottom: 20px;
+    opacity: 50%;
+
+}
+.mon{
+    height: 40px;
+    width: 35px;
+    background-color: hsl(10, 79%, 65%) ;
+    border: none;
+    border-radius: 5px;
+}
+.tue{
+    height: 66px;
+    width: 35px;
+    background-color: hsl(10, 79%, 65%) ;
+    border: none;
+    border-radius: 5px;
+}
+.wed{
+    height: 100px;
+    width: 35px;
+    background-color:hsl(186, 34%, 60%)
+    ;
+    border: none;
+    border-radius: 5px;
+}
+.thu{
+    height: 60px;
+    width: 35px;
+    background-color: hsl(10, 79%, 65%) ;
+    border: none;
+    border-radius: 5px;
+}
+.fri{
+    height: 47px;
+    width: 35px;
+    background-color: hsl(10, 79%, 65%) ;
+    border: none;
+    border-radius: 5px;
+}.sat{
+    height: 80px;
+    width: 35px;
+    background-color: hsl(10, 79%, 65%) ;
+    border: none;
+    border-radius: 5px;
+}
+.sun{
+    height: 55px;
+    width: 35px;
+    background-color: hsl(10, 79%, 65%) ;
+    border: none;
+    border-radius: 5px;
+}
+.days{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.day{
+    font-size: 10px;
+    color:hsl(28, 10%, 53%) ;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 8px;
+}
+.totalmoney{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total{
+    color: hsl(28, 10%, 53%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bigmoney{
+    font-family: 'DM Sans', sans-serif;
+    color: hsl(25, 47%, 15%); 
+    font-size: 35px;   
+}
+.percentage{
+    text-align: right;
+}
+.percent{
+    color:hsl(25, 47%, 15%) ;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.month{
+    color: hsl(28, 10%, 53%);
+    font-weight: normal;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+}
+.totmoney{
+    margin-bottom: 20px;
+    align-items: center;
+}
